@@ -79,8 +79,27 @@
     -ms-border-radius:45%;
     -o-border-radius:45%;
 }
-
-@media (max-width:500px){
+@media (max-width:380px){
+  .dragen-logo{
+    width: 120px;
+  }
+  .carousel-caption{
+    bottom: 0rem !important;
+  }
+  .header-banner .carousel-caption h5{
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .header-banner .carousel-caption h3{
+    font-size: 18px;
+    margin-top: 2px;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 6px;
+  }
+}
+@media (min-width:381px) AND (max-width:500px){
   .dragen-logo{
     width: 160px;
   }
