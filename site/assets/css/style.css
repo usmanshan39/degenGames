@@ -1,0 +1,122 @@
+@font-face {
+  font-family: beon;
+  src: url(../fonts/Beon.otf);
+}
+
+/* navbar start */
+.top-navbar{
+  position: relative;
+  z-index: 999;
+}
+.top-logo{
+  width: 140px;
+}
+.top-navbar .navbar{
+  background: transparent;
+}
+.top-navbar .navbar .nav-link{
+  font-family: beon;
+  color: #FFCDFE;
+  font-size: 20.1729px;
+  line-height: 24px;
+}
+.top-navbar .navbar .nav-link:hover{
+  color: #FFCDFE;
+}
+
+/* navbar end */
+.header-banner{
+  position: absolute;
+  top: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(63, 243, 255, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.dragen-logo{
+  width: 450px;
+}
+.carousel-caption{
+  bottom: 5rem !important;
+}
+.header-banner .carousel-caption h5{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-top: 20px;
+}
+.header-banner .carousel-caption h3{
+  font-family: beon;
+  color: #FFCDFE;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.carousel-indicators .active{
+  background-color: #3FF3FF !important;
+}
+.carousel-indicators [data-bs-target]{
+    border: 1px solid #3FF3FF !important;
+   box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 25px;
+    height: 12px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+    -webkit-transition: opacity .6s ease;
+    -moz-transition: opacity .6s ease;
+    -ms-transition: opacity .6s ease;
+    -o-transition: opacity .6s ease;
+    border-radius:45%;
+    -webkit-border-radius:45%;
+    -moz-border-radius:45%;
+    -ms-border-radius:45%;
+    -o-border-radius:45%;
+}
+
+@media (max-width:500px){
+  .dragen-logo{
+    width: 160px;
+  }
+  .carousel-caption{
+    bottom: 0rem !important;
+  }
+  .header-banner .carousel-caption h5{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .header-banner .carousel-caption h3{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+@media (min-width:501px) AND (max-width:800px){
+  .dragen-logo{
+    width: 270px;
+  }
+  .carousel-caption{
+    bottom: 0rem !important;
+  }
+}
+@media (min-width:801px) AND (max-width:1020px){
+  .dragen-logo{
+    width: 350px;
+  }
+  .carousel-caption{
+    bottom: 1rem !important;
+  }
+}
+@media (min-width:1021px) AND (max-width:1300px){
+  .dragen-logo{
+    width: 420px;
+  }
+  .carousel-caption{
+    bottom: 3rem !important;
+  }
+}
