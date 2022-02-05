@@ -1,10 +1,12 @@
 body {
   background-color: #111111;
 }
-.white{
+
+.white {
   color: #ffff;
 }
-.pink{
+
+.pink {
   color: #E12AC9;
 }
 
@@ -315,14 +317,16 @@ body {
 
 
 /* section three start here */
-.degen-coming-soon{
+.degen-coming-soon {
   background-image: url("../images/degen3-bg.png");
   background-size: cover;
   background-position: center;
 }
-.degen-coming-soon .container{
+
+.degen-coming-soon .container {
   padding: 100px 0px;
 }
+
 .degen-coming-soon .comming-soon h2 {
   font-family: Neonblitz;
   font-size: 60px;
@@ -337,32 +341,38 @@ body {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
 }
-.degen-coming-soon  .card-section{
+
+.degen-coming-soon .card-section {
   margin-top: 60px;
 }
-.degen-coming-soon .card{
+
+.degen-coming-soon .card {
   background-color: #111111;
   min-height: 420px;
 }
-.degen-coming-soon .card .card-title{
+
+.degen-coming-soon .card .card-title {
   color: #3FF3FF;
   font-family: Space-Grotesk-bold;
   font-size: 24px;
 }
+
 .degen-coming-soon .card .card-text {
   font-family: Space-Grotesk-regular;
   color: #fff;
   line-height: 18px;
   font-size: 14px;
 }
+
 /* section three end here */
 
 
 /* section four start here */
-.degen-roadmap{
+.degen-roadmap {
   margin-top: 80px;
 }
-.degen-roadmap .roadmap h2{
+
+.degen-roadmap .roadmap h2 {
   font-family: Neonblitz;
   font-size: 60px;
   color: #fff;
@@ -377,21 +387,25 @@ body {
   -o-border-radius: 12px;
 }
 
-.degen-roadmap .counting-mai .number-div{
+.degen-roadmap .counting-mai .number-div {
   font-family: Neonblitz;
   font-size: 50px;
 }
-.dot{
+
+.dot {
   width: 20px;
   height: 20px;
 }
-.counting-main-outer{
+
+.counting-main-outer {
   margin-top: 50px;
 }
-.counting-main{
+
+.counting-main {
   width: 320px;
 }
-.counting-main h3{
+
+.counting-main h3 {
   font-family: Space-Grotesk-regular;
   font-size: 17px;
   line-height: 21px;
@@ -399,7 +413,8 @@ body {
   text-transform: uppercase;
   font-weight: normal;
 }
-.number-div img{
+
+.number-div img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -408,36 +423,41 @@ body {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.counting-body{
+
+.counting-body {
   margin-top: 20px;
   margin-left: 65px;
 }
+
 /* section four start end */
 
 
 
 /* section five start */
-.faq-sec{
+.faq-sec {
   margin-top: 100px;
 }
-.faq-sec .faq h2{
-    font-family: Neonblitz;
-    font-size: 60px;
-    color: #fff;
-    border: 8px solid #FFCDFE;
-    background-color: #111111;
-    padding: 20px;
-    width: 210px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;  
+
+.faq-sec .faq h2 {
+  font-family: Neonblitz;
+  font-size: 60px;
+  color: #fff;
+  border: 8px solid #FFCDFE;
+  background-color: #111111;
+  padding: 20px;
+  width: 210px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
-.accordion{
+
+.accordion {
   margin-top: 60px;
   margin-bottom: 100px;
 }
+
 .accordion-button::after {
   width: auto;
   height: auto;
@@ -448,6 +468,7 @@ body {
   color: #1b6ce5;
   transform: translateY(-4px);
 }
+
 .accordion-button:not(.collapsed)::after {
   width: auto;
   height: auto;
@@ -457,33 +478,40 @@ body {
   transform: translate(-5px, -4px);
   transform: rotate(0deg);
 }
-.accordion-button::after{
+
+.accordion-button::after {
   color: #fff;
 }
-.collapsed.accordion-button::after{
+
+.collapsed.accordion-button::after {
   color: #E12AC9;
 }
+
 .accordion-button,
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   background-color: #272727 !important;
   font-family: Space-Grotesk-bold;
   font-size: 18px;
   color: #fff;
 }
-.accordion-item{
+
+.accordion-item {
   border: none;
 }
-.accordion-body{
+
+.accordion-body {
   background-color: #E12AC9 !important;
   color: #fff;
   font-family: Space-Grotesk-regular;
 }
+
 /* section five end */
 
-.footer{
+.footer {
   margin-bottom: 30px;
 }
-.footer-text{
+
+.footer-text {
   color: #9F9F9F;
   font-family: Space-Grotesk-regular;
   font-size: 12px;
