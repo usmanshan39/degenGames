@@ -480,6 +480,15 @@ body {
 }
 /* section five end */
 
+.footer{
+  margin-bottom: 30px;
+}
+.footer-text{
+  color: #9F9F9F;
+  font-family: Space-Grotesk-regular;
+  font-size: 12px;
+}
+
 
 
 
